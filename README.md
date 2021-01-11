@@ -16,18 +16,11 @@ Option 2: navigation to ./client and ./server
 
 ### Client
 
-REACT_APP_BACKEND_URL = ???  
-REACT_APP_MAPBOX_TOKEN = ???
+see dotenv
 
 ### Server
 
-PORT = ???  
-MONGODB_URI = ???  
-SESSION_SECRET = ???  
-CLOUDINARY_NAME= ???  
-CLOUDINARY_KEY= ???  
-CLOUDINARY_SECRET= ???  
-FRONTEND_URL = ???
+see dotenv
 
 ## Instructions !
 
