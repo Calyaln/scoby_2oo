@@ -6,13 +6,13 @@ class ItemForm extends Component {
   state = {};
 
   handleChange(event) {
-    console.log("Wax On Wax Off");
+    console.log("this is changing");
     this.setState({});
   }
 
   handleSubmit = (event) => {
     event.preventDefault();
-    console.log("Wax On Wax Off");
+    console.log("i'm submited");
 
     // In order to send back the data to the client, since there is an input type file you have to send the
     // data as formdata.
@@ -26,6 +26,9 @@ class ItemForm extends Component {
     // This handle is passed as a callback to the autocomplete component.
     // Take a look at the data and see what you can get from it.
     // Look at the item model to know what you should retrieve and set as state.
+    // retrieve coordinates: {
+    //   type: [Number],
+    // }
     console.log(place);
   };
 
